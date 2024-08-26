@@ -1,4 +1,4 @@
-# TypeScript demo
+# TypeScript & Node.js demo
 
 ## Start using this TypeScript app
 ```bash

@@ -41,8 +41,8 @@ export const updateTodo: RequestHandler<{id: string}> = (req, res, next) => {
 
     // if we could NOT find it, todoIndex = -1
     if (todoIndex < 0) {
-        // This triggers app.ts Error Handling Middleware function
-        // Error Handling Middleware function
+        /* This triggers app.ts Error Handling Middleware function
+        Error Handling Middleware function */
         // app.use((err: Error, req: express.Request, res: express.Response, next: express.NextFunction) => {
         //     res.status(500).json({ message: err.message });
         // });
