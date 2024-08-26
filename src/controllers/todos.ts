@@ -6,6 +6,9 @@ import { Todo } from '../models/todo';
 // This TODOS array lose all memory upon server restart
 const TODOS: Todo[] = [];
 
+/* using 'RequestHandler' implicitly declares for us
+export const createTodo: RequestHandler = (req: Request, res: Response, next: NextFunction)
+*/
 export const createTodo: RequestHandler = (req, res, next) => {
     // receiving requests
     // { "text": "Some text" }
